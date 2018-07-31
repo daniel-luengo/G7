@@ -23,13 +23,42 @@ body { background: #000000;}
 .menu-superior .navbar-default { background-color: inherit;  border-color: inherit;}
 .menu-superior .navbar { border-radius: 0px;    border: 0px solid transparent;}
 .menu-superior .navbar-default .navbar-nav > li > a {  font-size: 16px;}
-#bloque-1 { background: #b9c1e7; min-height: 500px;}
+.bloque-1 {  border-bottom: 1px solid #a20036;}
 
 .menu-superior .navbar-nav > li { padding-left: 180px; padding-top: 10px;}
-
+.menu-superior .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
 
 .caja-contenedor { width: 300px; margin: 0 auto; min-height: 300px; position: relative;}
 .celular { position: absolute; z-index: 999;}
+.bloque-2 { background: url(../images/fondo-bloque-2.jpg)  ; background-size: cover; padding-bottom: 76px;}
+.bloque-2 .titulo-1 { font-size: 30px; text-transform: uppercase; text-align: center; color: #ffffff; padding-top: 40px;}
+.bloque-2 .titulo-2 { font-size: 36px; text-transform: uppercase; text-align: center; color: #ffffff; line-height: 25px;}
+.bloque-2 .contenedor-celular { max-width: 417px; margin: 0 auto;}
+.bloque-2 .titulo-img { width: 249px; margin: 0 auto; padding-top: 40px; padding-bottom: 45px;}
+
+
+
+.bloque-3 { background: #ffffff url(../images/fondo-2.jpg) no-repeat center 259px; min-height: 2263px;}
+.bloque-3 .bloque-texto { padding-top: 213px;}
+.bloque-3 .bloque-texto .margen-izq{ padding-left: 17px; padding-bottom: 10px;}
+.bloque-3 .bloque-texto .titulo { background: url(../images/bullet.jpg) no-repeat left 15px;padding-left: 17px; font-size: 30px; padding-bottom: 10px;}
+.bloque-3 .bloque-texto .bajada { padding-left: 17px; font-size: 22px;}
+.bloque-3 .contenedor-telefono-2 { padding-top: 40px;} 
+
+
+.bloque-3 .caja-img-lens { padding-top: 15px; padding-bottom: 15px;}
+.bloque-3 .texto-1 { font-size: 30px; text-transform: uppercase; text-align: center; color: #ffffff; background: url(../images/bullet-2.png) no-repeat left 13px; width: 340px; margin: 0 auto;}
+.bloque-3 .texto-1-bajada { font-size: 22px; text-align: center;color: #ffffff; max-width: 460px; margin:  0 auto;}
+.bloque-3 .contenedor-telefono-3 { padding-top: 55px; padding-bottom: 120px;}
+.bloque-3 .contenedor-telefono-4 { padding-left: 20px;} 
+
+
+.bloque-3 .contenedor-texto {}
+.bloque-3 .contenedor-texto .titulo-3 {background: url(../images/bullet-3.png) no-repeat left 15px; color: #ffffff; font-size: 30px; padding-left: 20px; padding-bottom: 20px; text-transform: uppercase;}
+.bloque-3 .contenedor-texto .bajada-titulo-3 { color: #ffffff; font-size: 22px; max-width: 400px; padding-left: 20px;}
+
 
 /*.banner-video {
     height: 46vw;
@@ -54,8 +83,7 @@ body { background: #000000;}
 
 .banner-video video {
 
-    position: absolute;
-	top: -99px;
+   
 }
 
 
@@ -102,10 +130,11 @@ body { background: #000000;}
 
 /****************** INICIO MEDIA QUERY 768 *****************/
 @media (max-width: 767px) { 
-
-	
-	
-	
+.menu-superior .navbar-nav > li { padding-left: 0px; padding-top: 10px;}
+.menu-superior .navbar-brand { height: 60px; padding: 15px 15px; font-size: 18px; line-height: 20px;}	
+.bloque-2 .titulo-1 { font-size: 20px; line-height: 20px; padding-bottom: 10px;}
+.bloque-2 .titulo-2 { font-size: 24px; }	
+.bloque-2 .contenedor-celular { padding-left: 25px; padding-right: 25px;}	
 	
 }
 /****************** FIN min-width 768 *****************/
